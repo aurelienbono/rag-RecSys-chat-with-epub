@@ -1,0 +1,4 @@
+python-dotenv
+chromadb
+openai
+epub-conversion

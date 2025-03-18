@@ -1,0 +1,12 @@
+
+# ignore the venv directory
+venv/
+.venv/
+
+# ignore the .vscode directory
+.vscode/
+# ignore the .idea directory
+.idea/
+# ignore the .env file
+.env
+.qodo
