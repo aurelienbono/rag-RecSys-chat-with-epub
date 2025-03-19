@@ -148,7 +148,8 @@ def generate_recommendation(query_request: QueryRequest):
         "Vous êtes un expert en recommandations de livres. Un utilisateur cherche des suggestions. "
         "Voici quelques livres pertinents récupérés dans la base de données :\n\n"
         f"{context}\n\n"
-        "Sur la base de ces résultats, suggérez trois autres livres pertinents. "
+        "Sur la base de ces résultats, suggérez trois livres parmi ceux listés ci-dessus. "
+        "Si vous ne trouvez pas de livres pertinents, répondez simplement que vous n'avez pas trouvé de recommandations.\n"
         f"Requête utilisateur : \"{query_request.question}\""
     )
 
